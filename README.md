@@ -1,117 +1,181 @@
-Smart Parking Management System 🚗
+# 🚗 Smart Parking Management System
 
-A desktop-based Smart Parking Management System developed using Java Swing, JDBC, and MySQL. The application automates vehicle parking operations including vehicle entry, exit, ticket generation, billing, and parking slot management.
+A desktop-based **Smart Parking Management System** developed using **Java Swing**, **JDBC**, and **MySQL**. The application automates parking operations by managing vehicle entry, exit, ticket generation, billing, parking slot allocation, and revenue monitoring through an intuitive graphical interface.
 
-Features
-User Login
-Vehicle Entry
-Vehicle Exit
-Parking Ticket Generation
-Billing System
-Revenue Monitoring
-Parking Slot Management
-Database Connectivity (MySQL)
-Exception Handling
-Java Swing GUI
-Technologies Used
-Technology	Purpose
-Java	Core Programming
-Java Swing	GUI Development
-JDBC	Database Connectivity
-MySQL	Database
-OOP	System Design
-Project Structure
-src
+---
+
+## ✨ Features
+
+- 🔐 Secure Login System
+- 🚘 Vehicle Entry Management
+- 🚪 Vehicle Exit Management
+- 🎫 Automatic Parking Ticket Generation
+- 💰 Automated Billing System
+- 📊 Revenue Monitoring
+- 🅿️ Parking Slot Management
+- 🗄️ MySQL Database Integration
+- ⚠️ Custom Exception Handling
+- 🖥️ Java Swing GUI
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Java | Core Programming |
+| Java Swing | Desktop GUI Development |
+| JDBC | Database Connectivity |
+| MySQL | Database Management |
+| OOP | Application Design |
+
+---
+
+## 📂 Project Structure
+
+```text
+SmartParking
 │
-├── db
-│   ├── DBConnection.java
-│   └── DatabaseManager.java
+├── lib
+│   └── mysql-connector-j-9.5.0.jar
 │
-├── exceptions
-│   ├── InvalidVehicleException.java
-│   └── ParkingFullException.java
+├── src
+│   ├── db
+│   ├── exceptions
+│   ├── gui
+│   ├── model
+│   ├── service
+│   └── ui
 │
-├── gui
-│   ├── DashboardFrame.java
-│   ├── EnterVehicleFrame.java
-│   ├── ExitVehicleFrame.java
-│   └── LoginFrame.java
-│
-├── model
-│   ├── Vehicle.java
-│   ├── Car.java
-│   ├── Bike.java
-│   ├── Truck.java
-│   ├── ParkingTicket.java
-│   ├── VehicleType.java
-│   └── Billable.java
-│
-├── service
-│   ├── ParkingLot.java
-│   ├── ParkingService.java
-│   ├── BillingService.java
-│   └── RevenueMonitor.java
-│
-└── ui
-    ├── App.java
-    ├── ParkingApp.java
-    ├── TestDB.java
-    └── TestParking.java
-Modules
-Authentication
+├── .gitignore
+└── README.md
+```
 
-Secure login interface for accessing the application.
+---
 
-Parking Management
-Vehicle Entry
-Vehicle Exit
-Slot Allocation
-Capacity Monitoring
-Billing
-Automatic Parking Fee Calculation
-Bill Generation
-Revenue Tracking
-Database
+## 🧩 Modules
 
-Stores
+### Authentication
+- Secure user login
 
-Vehicle Details
-Parking Tickets
-Billing Records
-Parking History
-Object-Oriented Concepts Used
-Classes & Objects
-Inheritance
-Polymorphism
-Interfaces
-Exception Handling
-Encapsulation
-Screenshots
+### Parking Management
+- Vehicle Entry
+- Vehicle Exit
+- Parking Slot Allocation
+- Parking Availability Monitoring
 
-Add screenshots here.
+### Billing
+- Automatic Fee Calculation
+- Bill Generation
+- Revenue Tracking
 
-images/
-    login.png
-    dashboard.png
-    vehicle-entry.png
-    vehicle-exit.png
-Future Improvements
-QR Code Based Entry
-Online Payment
-RFID Integration
-Reservation System
-Mobile Application
-Email Notifications
-Author
+### Database
+- Vehicle Records
+- Parking Tickets
+- Billing History
+- Parking Logs
 
-Anushka Acharya
-Computer Science Engineering 
+---
 
-V. Rohith
-Computer Science Engineering (AI & ML)
+## 💡 Object-Oriented Concepts
+
+- Classes & Objects
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Interfaces
+- Exception Handling
+
+---
+
+## ⚙️ Prerequisites
+
+Before running the project, ensure you have:
+
+- Java JDK 17 or later
+- MySQL Server
+- MySQL Connector/J
+- Any Java IDE (VS Code, IntelliJ IDEA, Eclipse)
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/RockyRohith12/smart-parking-system-java.git
+```
+
+### Open the project
+
+Open the project in your preferred Java IDE.
+
+### Configure the database
+
+Update your database credentials in:
+
+```
+src/db/DBConnection.java
+```
+
+Example:
+
+```java
+String url = "jdbc:mysql://localhost:3306/parking_db";
+String username = "root";
+String password = "your_password";
+```
+
+### Add MySQL Connector
+
+Ensure the following library is added to the project's build path:
+
+```
+lib/mysql-connector-j-9.5.0.jar
+```
+
+### Run the application
+
+Run either:
+
+```
+App.java
+```
+
+or
+
+```
+ParkingApp.java
+```
+
+---
+
+## 🚀 Future Enhancements
+
+- QR Code Based Entry
+- RFID Integration
+- Online Payment Gateway
+- Mobile Application
+- Parking Reservation
+- Email Notifications
+- Admin Analytics Dashboard
+
+---
+
+## 👨‍💻 Author
+**Anushka Acharya**
+B Tech - Computer Science & Engineering
+
+**V. Rohith**
+B.Tech – Computer Science & Engineering (AI & ML)
 
 Dayananda Sagar University
 
-License
+GitHub: https://github.com/RockyRohith12
 
-This project is developed for educational purposes.
+---
+
+## 📄 License
+
+This project is intended for educational and learning purposes.
