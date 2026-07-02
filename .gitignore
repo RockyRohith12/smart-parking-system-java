@@ -1,0 +1,18 @@
+# Java
+*.class
+
+# IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# Build folders
+out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
