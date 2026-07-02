@@ -165,9 +165,11 @@ ParkingApp.java
 
 ## 👨‍💻 Author
 **Anushka Acharya**
-B Tech - Computer Science & Engineering
+
+B.Tech - Computer Science & Engineering
 
 **V. Rohith**
+
 B.Tech – Computer Science & Engineering (AI & ML)
 
 Dayananda Sagar University
