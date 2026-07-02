@@ -174,8 +174,9 @@ B.Tech – Computer Science & Engineering (AI & ML)
 
 Dayananda Sagar University
 
-GitHub: https://github.com/RockyRohith12
+GitHub: https://github.com/Anu5156
 
+GitHub: https://github.com/RockyRohith12
 ---
 
 ## 📄 License
